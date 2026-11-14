@@ -1,0 +1,1138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0436510EC3FB3D5FE909C2B8 /* MemoryReunionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B55DCB9EAFD2F08D0DF1A /* MemoryReunionView.swift */; };
+		06C1733290CCDE40D1209F87 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54063722470A3CCD114DE5 /* ReviewView.swift */; };
+		06CBBEBB999646154A01FD75 /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED949E95024D7B16DB5EDFDB /* LiveActivityService.swift */; };
+		094274D47B112B8454B0FDA2 /* PlaceEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C216CDBB45E04730B4701 /* PlaceEditor.swift */; };
+		0A7D86E59AC311AFB2ECEC9C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CEB6982943ADC4ACFE73F /* ShareViewController.swift */; };
+		0CAD6608C28254E8916CB832 /* CaptureSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB4208D5889E8F33D610A7 /* CaptureSuggestions.swift */; };
+		0CC4D2AC6D302F128906E756 /* CardTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE014250E949036216AEC676 /* CardTile.swift */; };
+		0E53DE447507228DB25F2305 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127022FBF2FF520CF4CAF5B4 /* TodayView.swift */; };
+		14E5F53E3C6FDA5C6FC3E49F /* WarmPaperScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9AF3C728DEC08152C45B6 /* WarmPaperScreensTests.swift */; };
+		1BDDAFAA8D5051D1FCE502A0 /* MemoryComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C18CC2F7EB294E3642F5D /* MemoryComposerView.swift */; };
+		1F879DCAA66B171C19197633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F825C9EEC5C4107D63A159C /* Assets.xcassets */; };
+		2404EFA568730E45006CDF16 /* ExperienceUpgradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C5FE672DFC58C370B3624 /* ExperienceUpgradeTests.swift */; };
+		2484E89BE60E45A4E7F9C9D9 /* LocalCardFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373A945ECED97A1B14CF6E7 /* LocalCardFlowTests.swift */; };
+		2F045C43BC585144C348626D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C7F323CCF6A06894A6F5AA /* SettingsView.swift */; };
+		32D12F9965494BEA8F720BB6 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A19C7E2EDC458EF25A34B120 /* OFL.txt */; };
+		34310BBD707459C600254292 /* ShiriIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65C07A78FF35DAB9193EBB /* ShiriIntents.swift */; };
+		358F5DCF21450330F51806F2 /* AlarmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5FC7437DDA179E9AF41B1 /* AlarmAdapter.swift */; };
+		37EFAF99E4DD8EF13B9A9671 /* ShiriCore in Frameworks */ = {isa = PBXBuildFile; productRef = 053B9F9775BE503F3D7F349B /* ShiriCore */; };
+		3BEDEEDE8669BEF249FDABB7 /* ShiriShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 17AF3515BD06A3A4F88664F9 /* ShiriShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D90F1B9A8FB561BC78AF8BA /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED949E95024D7B16DB5EDFDB /* LiveActivityService.swift */; };
+		4143F7D2958050748F998E0C /* ShiriIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65C07A78FF35DAB9193EBB /* ShiriIntents.swift */; };
+		444291783E1C4D47A74B99D6 /* WidgetVoiceCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051537856DD34FB3A3F8D26B /* WidgetVoiceCapture.swift */; };
+		4BA8FD061302B712E49C1A20 /* ShiriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C3564E6394769271D88843 /* ShiriApp.swift */; };
+		51B52D7BEEECDDD526DB7EF1 /* ScheduleEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A299800D54140B9885DCC4 /* ScheduleEditors.swift */; };
+		5A059605FA83ECE3EB0EC968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */; };
+		5C287E7096A9E1ABBAC375B5 /* NotoSerifSC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4C5B7250E4FDA3626CB39D0 /* NotoSerifSC.ttf */; };
+		607677CF193844128E3E8226 /* SpeechTranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261D5C38F4245F5819371AD /* SpeechTranscriptionService.swift */; };
+		668B993F48CE640498BF84D2 /* OccasionPreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4878B75FAD95F69173BCE1E /* OccasionPreparationView.swift */; };
+		71611EDE0D6E43ECA3EF6D36 /* SpeechTranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261D5C38F4245F5819371AD /* SpeechTranscriptionService.swift */; };
+		73D498431CC4F8C32B00FB17 /* ShiriWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEEC278EDE8778804B689F /* ShiriWidgets.swift */; };
+		76A9FEE3CBD7A6DCECBDC768 /* ShiriActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6D5EDBB2FF8BD6CF79C8D /* ShiriActivity.swift */; };
+		76C3D7A34EC1D983927601A1 /* ShiriWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D3907D57110C5DADD8D16BB2 /* ShiriWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B1AFA709DCC6C8E1F3E116D /* PaperTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C11D8D322D6900C0D805C1 /* PaperTheme.swift */; };
+		80CE2CCF3020E7909299BB6C /* ReviewExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861175AA35689A7F195ACA8 /* ReviewExportView.swift */; };
+		813223D6A9891770CC2B8191 /* SystemActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B016280686593C80D71179 /* SystemActionHandler.swift */; };
+		81597A519D9A4BCFA6385AEC /* WidgetVoiceCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051537856DD34FB3A3F8D26B /* WidgetVoiceCapture.swift */; };
+		825B0249D989F293C48429F1 /* ScreenshotRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351E29EF220A80350B8F217D /* ScreenshotRecognition.swift */; };
+		845B867251874157B4B7D56E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */; };
+		88184C62F56288E5C68FED01 /* ShiriActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6D5EDBB2FF8BD6CF79C8D /* ShiriActivity.swift */; };
+		89534B006E2EFF8CBC03F4BD /* MemoryReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89D8E5BC9A1235C699AD4C /* MemoryReadingView.swift */; };
+		8B3671F0925F3756334B52FE /* NativeServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2664A032951D681DDE6BA /* NativeServicesTests.swift */; };
+		90E5B2F3465296CAE2E24648 /* GeofenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026E69007F2619ECC7642C5 /* GeofenceService.swift */; };
+		986692534C8FE955784BF16E /* MemoryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29790A40B22E96530441B30A /* MemoryBookView.swift */; };
+		9875BAFE937CA25D4DEE44F6 /* MemoryEditorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354C1DF19D851DFFF4D61738 /* MemoryEditorState.swift */; };
+		9D6177A9F6AEF697C131E45B /* ShiriCore in Frameworks */ = {isa = PBXBuildFile; productRef = 76E76368CEB0EB9268D2B5B3 /* ShiriCore */; };
+		9F31A4E742168A7CD8DEB34E /* AlarmAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5FC7437DDA179E9AF41B1 /* AlarmAdapter.swift */; };
+		A60A632410F204877B2DF89B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FABD36410A512DB10C7BCC6 /* AppModel.swift */; };
+		AC34D3A5F6E50FD8ACA96C49 /* ReminderStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A461CC6668047D545B7511 /* ReminderStatusView.swift */; };
+		ADD02C98306A7DCC105DC176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */; };
+		AEE738D6803845F91EE78697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */; };
+		BA59D73D2258FA8B17CBD875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67ED3D6CF5229987527C01D /* LaunchScreen.storyboard */; };
+		BCF3E9D44BEEC967BA430227 /* DevelopmentFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA182CD99295FA320D336B /* DevelopmentFixtures.swift */; };
+		C36286119D2B53386C4C44C7 /* AppearanceEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D6F94EAD8BE24C758891C /* AppearanceEditor.swift */; };
+		C3E246F137C9377D137ED096 /* SharingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060FA3541578312B839CA3C /* SharingViews.swift */; };
+		CBEC218245989919C1C05852 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D262E98667A6DB4985DDE /* ComposerView.swift */; };
+		D66EE12E86164854475D924D /* ScreenshotImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833164BFC5C4FB471FC58A4 /* ScreenshotImportView.swift */; };
+		D8B782198D35020E107DE137 /* LocalSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B330CFB9E3C2360A235FA84 /* LocalSpeechService.swift */; };
+		DB51F52C277A9DFC906D4290 /* ShiriCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4B83FA7AAB1369425E32F153 /* ShiriCore */; };
+		DE246AA795F58DA2D79F92AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA103A5146557C2451A06085 /* AppDelegate.swift */; };
+		E08BB0891B9CC9EAD9966330 /* MemoryExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F718098AE60A4417014FF65 /* MemoryExportView.swift */; };
+		E1968DE35AC448629D34D751 /* DateStripPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DEBCE87A4546098A3FB6E9 /* DateStripPager.swift */; };
+		E307BD050AA858D0DAA2DA02 /* ShiriBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307BD050AA858D0DAA2DA01 /* ShiriBrand.swift */; };
+		E307BD050AA858D0DAA2DA03 /* ShiriBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307BD050AA858D0DAA2DA01 /* ShiriBrand.swift */; };
+		E443B1DD7D8D54629B8295E5 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F44189CED028430D9AC17 /* CardDetailView.swift */; };
+		EAC31AA6206837B57CAF1D89 /* PhotoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E6697843E4E72E5FCE9F4B /* PhotoProcessor.swift */; };
+		EAF245BD9CD9DB2E65CEECF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */; };
+		EC63CAA18AA7F95E8AB1330D /* MediaEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33223A5727E75FDF65721AFC /* MediaEditor.swift */; };
+		ED1E04EBA058F4AAF575AC0B /* BirthdayEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64DEBF2251244B934B1CD93 /* BirthdayEditor.swift */; };
+		F2AE94EEE9D8199F70531D0A /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EE6314AA5DEBB833C646E /* AppRootView.swift */; };
+		F3E2F12996B1AE66AEB66ABD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5753A7B9588042705D7A276F /* PrivacyInfo.xcprivacy */; };
+		F86CD83F6CA3B90141C880AB /* PhotoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E6697843E4E72E5FCE9F4B /* PhotoProcessor.swift */; };
+		FB6532A2CCA23AB9A265FAB0 /* ShiriCore in Frameworks */ = {isa = PBXBuildFile; productRef = A0D41E169442DEC54678CE2C /* ShiriCore */; };
+		FC1F4A5CA971502F4A158B77 /* MemoryPhotoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75E28324DFF9F95F48A656 /* MemoryPhotoEditor.swift */; };
+		FCF5FCD1EB48A897B95D96D1 /* SystemActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B016280686593C80D71179 /* SystemActionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011D63BD630A30AA49D5B0A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C195F10990D674BB9D30866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE6CBDFE5763847FF94DA65;
+			remoteInfo = ShiriShareExtension;
+		};
+		706E3A94311F7FC5DCA95F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C195F10990D674BB9D30866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533F6E5F3FA9687946EC614B;
+			remoteInfo = ShiriWidgets;
+		};
+		D28724B5032E2690068A3823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C195F10990D674BB9D30866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF4405AE1B04B4695C62B7D;
+			remoteInfo = Shiri;
+		};
+		F37D90948ECE0FF95E888E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C195F10990D674BB9D30866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF4405AE1B04B4695C62B7D;
+			remoteInfo = Shiri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		937A0BC4533401713D1864BE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76C3D7A34EC1D983927601A1 /* ShiriWidgets.appex in Embed Foundation Extensions */,
+				3BEDEEDE8669BEF249FDABB7 /* ShiriShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0026E69007F2619ECC7642C5 /* GeofenceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeofenceService.swift; path = Infrastructure/GeofenceService.swift; sourceTree = "<group>"; };
+		0373A945ECED97A1B14CF6E7 /* LocalCardFlowTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalCardFlowTests.swift; sourceTree = "<group>"; };
+		051537856DD34FB3A3F8D26B /* WidgetVoiceCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetVoiceCapture.swift; sourceTree = "<group>"; };
+		06C8FE9FEE6E22699A3442C8 /* ShiriShareExtension.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = ShiriShareExtension.entitlements; sourceTree = "<group>"; };
+		06E6697843E4E72E5FCE9F4B /* PhotoProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoProcessor.swift; path = Infrastructure/PhotoProcessor.swift; sourceTree = "<group>"; };
+		08F95D1A41B531B18257E2DF /* Base.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		0C89D8E5BC9A1235C699AD4C /* MemoryReadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryReadingView.swift; path = Features/MemoryReadingView.swift; sourceTree = "<group>"; };
+		0DD2664A032951D681DDE6BA /* NativeServicesTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeServicesTests.swift; sourceTree = "<group>"; };
+		0F65C07A78FF35DAB9193EBB /* ShiriIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShiriIntents.swift; sourceTree = "<group>"; };
+		11C3564E6394769271D88843 /* ShiriApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiriApp.swift; path = App/ShiriApp.swift; sourceTree = "<group>"; };
+		127022FBF2FF520CF4CAF5B4 /* TodayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TodayView.swift; path = Features/TodayView.swift; sourceTree = "<group>"; };
+		131C8D148B77DD54C890117A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C9AF3C728DEC08152C45B6 /* WarmPaperScreensTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WarmPaperScreensTests.swift; sourceTree = "<group>"; };
+		17AF3515BD06A3A4F88664F9 /* ShiriShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShiriShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F89DCB331E6159F023060E /* ShiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FEEC278EDE8778804B689F /* ShiriWidgets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShiriWidgets.swift; sourceTree = "<group>"; };
+		1D1644A78DF13899024A4D34 /* Local.example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Local.example.xcconfig; sourceTree = "<group>"; };
+		2060FA3541578312B839CA3C /* SharingViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharingViews.swift; path = Features/SharingViews.swift; sourceTree = "<group>"; };
+		247B55DCB9EAFD2F08D0DF1A /* MemoryReunionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryReunionView.swift; path = Features/MemoryReunionView.swift; sourceTree = "<group>"; };
+		270F44189CED028430D9AC17 /* CardDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardDetailView.swift; path = Features/CardDetailView.swift; sourceTree = "<group>"; };
+		29790A40B22E96530441B30A /* MemoryBookView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryBookView.swift; path = Features/MemoryBookView.swift; sourceTree = "<group>"; };
+		2C7C216CDBB45E04730B4701 /* PlaceEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceEditor.swift; path = Features/PlaceEditor.swift; sourceTree = "<group>"; };
+		2E75E28324DFF9F95F48A656 /* MemoryPhotoEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryPhotoEditor.swift; path = Features/MemoryPhotoEditor.swift; sourceTree = "<group>"; };
+		2FABD36410A512DB10C7BCC6 /* AppModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppModel.swift; path = App/AppModel.swift; sourceTree = "<group>"; };
+		33223A5727E75FDF65721AFC /* MediaEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaEditor.swift; path = Features/MediaEditor.swift; sourceTree = "<group>"; };
+		351E29EF220A80350B8F217D /* ScreenshotRecognition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenshotRecognition.swift; path = Infrastructure/ScreenshotRecognition.swift; sourceTree = "<group>"; };
+		354C1DF19D851DFFF4D61738 /* MemoryEditorState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryEditorState.swift; path = Features/MemoryEditorState.swift; sourceTree = "<group>"; };
+		367B6ADFF7A072435C9FA090 /* ShiriWidgets.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = ShiriWidgets.entitlements; sourceTree = "<group>"; };
+		3833164BFC5C4FB471FC58A4 /* ScreenshotImportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenshotImportView.swift; path = Features/ScreenshotImportView.swift; sourceTree = "<group>"; };
+		3AD6D5EDBB2FF8BD6CF79C8D /* ShiriActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShiriActivity.swift; sourceTree = "<group>"; };
+		3B330CFB9E3C2360A235FA84 /* LocalSpeechService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalSpeechService.swift; path = Infrastructure/LocalSpeechService.swift; sourceTree = "<group>"; };
+		43AB4208D5889E8F33D610A7 /* CaptureSuggestions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSuggestions.swift; path = Features/CaptureSuggestions.swift; sourceTree = "<group>"; };
+		51C5FC7437DDA179E9AF41B1 /* AlarmAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlarmAdapter.swift; sourceTree = "<group>"; };
+		5753A7B9588042705D7A276F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63C11D8D322D6900C0D805C1 /* PaperTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperTheme.swift; path = DesignSystem/PaperTheme.swift; sourceTree = "<group>"; };
+		696EE6314AA5DEBB833C646E /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppRootView.swift; path = Features/AppRootView.swift; sourceTree = "<group>"; };
+		6F5210FD82A9232B30EF8297 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F825C9EEC5C4107D63A159C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		70588B3380398EE49C0B90AD /* Shiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7261D5C38F4245F5819371AD /* SpeechTranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTranscriptionService.swift; sourceTree = "<group>"; };
+		79B016280686593C80D71179 /* SystemActionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SystemActionHandler.swift; sourceTree = "<group>"; };
+		80DA182CD99295FA320D336B /* DevelopmentFixtures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevelopmentFixtures.swift; path = Development/DevelopmentFixtures.swift; sourceTree = "<group>"; };
+		815D262E98667A6DB4985DDE /* ComposerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComposerView.swift; path = Features/ComposerView.swift; sourceTree = "<group>"; };
+		85A299800D54140B9885DCC4 /* ScheduleEditors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduleEditors.swift; path = Features/ScheduleEditors.swift; sourceTree = "<group>"; };
+		91A461CC6668047D545B7511 /* ReminderStatusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReminderStatusView.swift; path = Features/ReminderStatusView.swift; sourceTree = "<group>"; };
+		9D4C5FE672DFC58C370B3624 /* ExperienceUpgradeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExperienceUpgradeTests.swift; sourceTree = "<group>"; };
+		9F54063722470A3CCD114DE5 /* ReviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReviewView.swift; path = Features/ReviewView.swift; sourceTree = "<group>"; };
+		9F718098AE60A4417014FF65 /* MemoryExportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryExportView.swift; path = Features/MemoryExportView.swift; sourceTree = "<group>"; };
+		A19C7E2EDC458EF25A34B120 /* OFL.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OFL.txt; path = Resources/Fonts/OFL.txt; sourceTree = "<group>"; };
+		A216AC28A50C4BD4E5F18C79 /* Shiri.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Shiri.entitlements; sourceTree = "<group>"; };
+		B4C7F323CCF6A06894A6F5AA /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Features/SettingsView.swift; sourceTree = "<group>"; };
+		B67ED3D6CF5229987527C01D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B861175AA35689A7F195ACA8 /* ReviewExportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReviewExportView.swift; path = Features/ReviewExportView.swift; sourceTree = "<group>"; };
+		BAEAE45316AECE3098F938F3 /* ShiriAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiriAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4878B75FAD95F69173BCE1E /* OccasionPreparationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OccasionPreparationView.swift; path = Features/OccasionPreparationView.swift; sourceTree = "<group>"; };
+		C535F363BB00D85D9CE9A404 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68D6F94EAD8BE24C758891C /* AppearanceEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppearanceEditor.swift; path = Features/AppearanceEditor.swift; sourceTree = "<group>"; };
+		CA103A5146557C2451A06085 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		CD2CEB6982943ADC4ACFE73F /* ShareViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		CE014250E949036216AEC676 /* CardTile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTile.swift; path = Features/CardTile.swift; sourceTree = "<group>"; };
+		D3907D57110C5DADD8D16BB2 /* ShiriWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShiriWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DEBCE87A4546098A3FB6E9 /* DateStripPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateStripPager.swift; path = Features/DateStripPager.swift; sourceTree = "<group>"; };
+		E307BD050AA858D0DAA2DA01 /* ShiriBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShiriBrand.swift; sourceTree = "<group>"; };
+		E4C5B7250E4FDA3626CB39D0 /* NotoSerifSC.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = NotoSerifSC.ttf; path = Resources/Fonts/NotoSerifSC.ttf; sourceTree = "<group>"; };
+		E64DEBF2251244B934B1CD93 /* BirthdayEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BirthdayEditor.swift; path = Features/BirthdayEditor.swift; sourceTree = "<group>"; };
+		ED949E95024D7B16DB5EDFDB /* LiveActivityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
+		F59C18CC2F7EB294E3642F5D /* MemoryComposerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryComposerView.swift; path = Features/MemoryComposerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E52D30F65EBE3AC1185C994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A059605FA83ECE3EB0EC968 /* Foundation.framework in Frameworks */,
+				37EFAF99E4DD8EF13B9A9671 /* ShiriCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EBADCD9BFE1D40E4DCD1F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE738D6803845F91EE78697 /* Foundation.framework in Frameworks */,
+				FB6532A2CCA23AB9A265FAB0 /* ShiriCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498B5468153A59289215B916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD02C98306A7DCC105DC176 /* Foundation.framework in Frameworks */,
+				9D6177A9F6AEF697C131E45B /* ShiriCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F3DBBD7ED227358B6E719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845B867251874157B4B7D56E /* Foundation.framework in Frameworks */,
+				DB51F52C277A9DFC906D4290 /* ShiriCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D2C141D37CB4883EAE3E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF245BD9CD9DB2E65CEECF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC4A199D710825FFD09E07F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C339EA9A43909280B2211226 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B1153D1A40A9DABB649733 /* Shiri */ = {
+			isa = PBXGroup;
+			children = (
+				CA103A5146557C2451A06085 /* AppDelegate.swift */,
+				2FABD36410A512DB10C7BCC6 /* AppModel.swift */,
+				11C3564E6394769271D88843 /* ShiriApp.swift */,
+				63C11D8D322D6900C0D805C1 /* PaperTheme.swift */,
+				80DA182CD99295FA320D336B /* DevelopmentFixtures.swift */,
+				696EE6314AA5DEBB833C646E /* AppRootView.swift */,
+				C68D6F94EAD8BE24C758891C /* AppearanceEditor.swift */,
+				E64DEBF2251244B934B1CD93 /* BirthdayEditor.swift */,
+				270F44189CED028430D9AC17 /* CardDetailView.swift */,
+				CE014250E949036216AEC676 /* CardTile.swift */,
+				815D262E98667A6DB4985DDE /* ComposerView.swift */,
+				33223A5727E75FDF65721AFC /* MediaEditor.swift */,
+				2C7C216CDBB45E04730B4701 /* PlaceEditor.swift */,
+				B861175AA35689A7F195ACA8 /* ReviewExportView.swift */,
+				9F54063722470A3CCD114DE5 /* ReviewView.swift */,
+				85A299800D54140B9885DCC4 /* ScheduleEditors.swift */,
+				B4C7F323CCF6A06894A6F5AA /* SettingsView.swift */,
+				2060FA3541578312B839CA3C /* SharingViews.swift */,
+				127022FBF2FF520CF4CAF5B4 /* TodayView.swift */,
+				D5DEBCE87A4546098A3FB6E9 /* DateStripPager.swift */,
+				0026E69007F2619ECC7642C5 /* GeofenceService.swift */,
+				3B330CFB9E3C2360A235FA84 /* LocalSpeechService.swift */,
+				06E6697843E4E72E5FCE9F4B /* PhotoProcessor.swift */,
+				6F825C9EEC5C4107D63A159C /* Assets.xcassets */,
+				5753A7B9588042705D7A276F /* PrivacyInfo.xcprivacy */,
+				E4C5B7250E4FDA3626CB39D0 /* NotoSerifSC.ttf */,
+				A19C7E2EDC458EF25A34B120 /* OFL.txt */,
+				C535F363BB00D85D9CE9A404 /* Info.plist */,
+				A216AC28A50C4BD4E5F18C79 /* Shiri.entitlements */,
+				B67ED3D6CF5229987527C01D /* LaunchScreen.storyboard */,
+				91A461CC6668047D545B7511 /* ReminderStatusView.swift */,
+				C4878B75FAD95F69173BCE1E /* OccasionPreparationView.swift */,
+				29790A40B22E96530441B30A /* MemoryBookView.swift */,
+				3833164BFC5C4FB471FC58A4 /* ScreenshotImportView.swift */,
+				43AB4208D5889E8F33D610A7 /* CaptureSuggestions.swift */,
+				351E29EF220A80350B8F217D /* ScreenshotRecognition.swift */,
+				F59C18CC2F7EB294E3642F5D /* MemoryComposerView.swift */,
+				0C89D8E5BC9A1235C699AD4C /* MemoryReadingView.swift */,
+				9F718098AE60A4417014FF65 /* MemoryExportView.swift */,
+				354C1DF19D851DFFF4D61738 /* MemoryEditorState.swift */,
+				2E75E28324DFF9F95F48A656 /* MemoryPhotoEditor.swift */,
+				247B55DCB9EAFD2F08D0DF1A /* MemoryReunionView.swift */,
+			);
+			path = Shiri;
+			sourceTree = "<group>";
+		};
+		BB8D8EC23BFB769D729E574F /* ShiriAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD2664A032951D681DDE6BA /* NativeServicesTests.swift */,
+			);
+			path = ShiriAppTests;
+			sourceTree = "<group>";
+		};
+		BBF9DFB9F77E0C86AD6A0D6A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				08F95D1A41B531B18257E2DF /* Base.xcconfig */,
+				1D1644A78DF13899024A4D34 /* Local.example.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C339EA9A43909280B2211226 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B52D36EE0DCAC272FBB7E71 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D10C5BE85ECCA3CF1F533095 /* ShiriSystem */ = {
+			isa = PBXGroup;
+			children = (
+				51C5FC7437DDA179E9AF41B1 /* AlarmAdapter.swift */,
+				ED949E95024D7B16DB5EDFDB /* LiveActivityService.swift */,
+				3AD6D5EDBB2FF8BD6CF79C8D /* ShiriActivity.swift */,
+				E307BD050AA858D0DAA2DA01 /* ShiriBrand.swift */,
+				0F65C07A78FF35DAB9193EBB /* ShiriIntents.swift */,
+				051537856DD34FB3A3F8D26B /* WidgetVoiceCapture.swift */,
+				7261D5C38F4245F5819371AD /* SpeechTranscriptionService.swift */,
+				79B016280686593C80D71179 /* SystemActionHandler.swift */,
+			);
+			path = ShiriSystem;
+			sourceTree = "<group>";
+		};
+		DA58F800DA099A9A33FA79BA = {
+			isa = PBXGroup;
+			children = (
+				F0D80125ED0EB761EBDC7763 /* Products */,
+				6DC4A199D710825FFD09E07F /* Frameworks */,
+				BBF9DFB9F77E0C86AD6A0D6A /* Configuration */,
+				B3B1153D1A40A9DABB649733 /* Shiri */,
+				D10C5BE85ECCA3CF1F533095 /* ShiriSystem */,
+				F3B423309E27881F44875C89 /* ShiriWidgets */,
+				E1010663CD116D15CF86431C /* ShiriShareExtension */,
+				F8AE5C0806AB5960152F175F /* ShiriUITests */,
+				BB8D8EC23BFB769D729E574F /* ShiriAppTests */,
+			);
+			sourceTree = "<group>";
+		};
+		E1010663CD116D15CF86431C /* ShiriShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CD2CEB6982943ADC4ACFE73F /* ShareViewController.swift */,
+				131C8D148B77DD54C890117A /* Info.plist */,
+				06C8FE9FEE6E22699A3442C8 /* ShiriShareExtension.entitlements */,
+			);
+			path = ShiriShareExtension;
+			sourceTree = "<group>";
+		};
+		F0D80125ED0EB761EBDC7763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70588B3380398EE49C0B90AD /* Shiri.app */,
+				D3907D57110C5DADD8D16BB2 /* ShiriWidgets.appex */,
+				17AF3515BD06A3A4F88664F9 /* ShiriShareExtension.appex */,
+				19F89DCB331E6159F023060E /* ShiriUITests.xctest */,
+				BAEAE45316AECE3098F938F3 /* ShiriAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B423309E27881F44875C89 /* ShiriWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				19FEEC278EDE8778804B689F /* ShiriWidgets.swift */,
+				6F5210FD82A9232B30EF8297 /* Info.plist */,
+				367B6ADFF7A072435C9FA090 /* ShiriWidgets.entitlements */,
+			);
+			path = ShiriWidgets;
+			sourceTree = "<group>";
+		};
+		F8AE5C0806AB5960152F175F /* ShiriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0373A945ECED97A1B14CF6E7 /* LocalCardFlowTests.swift */,
+				15C9AF3C728DEC08152C45B6 /* WarmPaperScreensTests.swift */,
+				9D4C5FE672DFC58C370B3624 /* ExperienceUpgradeTests.swift */,
+			);
+			path = ShiriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F48E0AD5E4E181AAA7FE347 /* ShiriAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C5A75BFF8BE64088BB62C2 /* Build configuration list for PBXNativeTarget "ShiriAppTests" */;
+			buildPhases = (
+				761B81C20B69AB142FEA4E19 /* Sources */,
+				499F3DBBD7ED227358B6E719 /* Frameworks */,
+				B73970700CCCB34112DC9002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B99F4B895F92CAC90D29132 /* PBXTargetDependency */,
+			);
+			name = ShiriAppTests;
+			packageProductDependencies = (
+				4B83FA7AAB1369425E32F153 /* ShiriCore */,
+			);
+			productName = ShiriAppTests;
+			productReference = BAEAE45316AECE3098F938F3 /* ShiriAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533F6E5F3FA9687946EC614B /* ShiriWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE078A57EC95404B23B058E /* Build configuration list for PBXNativeTarget "ShiriWidgets" */;
+			buildPhases = (
+				6A907A065CEB6187D9BE5A1D /* Sources */,
+				498B5468153A59289215B916 /* Frameworks */,
+				470D1D523256FC6EA2FD0E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiriWidgets;
+			packageProductDependencies = (
+				76E76368CEB0EB9268D2B5B3 /* ShiriCore */,
+			);
+			productName = ShiriWidgets;
+			productReference = D3907D57110C5DADD8D16BB2 /* ShiriWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		64A3B5522737831EB924B31D /* ShiriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB459A8BA20A71A258AB5459 /* Build configuration list for PBXNativeTarget "ShiriUITests" */;
+			buildPhases = (
+				28725064460CE8D8072729CF /* Sources */,
+				C2D2C141D37CB4883EAE3E88 /* Frameworks */,
+				26FB5D176C92CE6CC43F029D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D239A544FD2F8AF38BEEF9 /* PBXTargetDependency */,
+			);
+			name = ShiriUITests;
+			productName = ShiriUITests;
+			productReference = 19F89DCB331E6159F023060E /* ShiriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8BF4405AE1B04B4695C62B7D /* Shiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616B69D35658A578D05B1DF4 /* Build configuration list for PBXNativeTarget "Shiri" */;
+			buildPhases = (
+				FD5EC508AEEDEC0D36173C74 /* Sources */,
+				3EBADCD9BFE1D40E4DCD1F81 /* Frameworks */,
+				88F8B686D886650442308101 /* Resources */,
+				937A0BC4533401713D1864BE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7402159F2EEBB10BEF837D /* PBXTargetDependency */,
+				54549D2A0D79AF05C538DCA8 /* PBXTargetDependency */,
+			);
+			name = Shiri;
+			packageProductDependencies = (
+				A0D41E169442DEC54678CE2C /* ShiriCore */,
+			);
+			productName = Shiri;
+			productReference = 70588B3380398EE49C0B90AD /* Shiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE6CBDFE5763847FF94DA65 /* ShiriShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1DA7DF0428609762F12040 /* Build configuration list for PBXNativeTarget "ShiriShareExtension" */;
+			buildPhases = (
+				B30906DA21FD5AF8D365C3A2 /* Sources */,
+				1E52D30F65EBE3AC1185C994 /* Frameworks */,
+				CCF1A458801FD08168298582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiriShareExtension;
+			packageProductDependencies = (
+				053B9F9775BE503F3D7F349B /* ShiriCore */,
+			);
+			productName = ShiriShareExtension;
+			productReference = 17AF3515BD06A3A4F88664F9 /* ShiriShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C195F10990D674BB9D30866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					64A3B5522737831EB924B31D = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 8BF4405AE1B04B4695C62B7D;
+					};
+					8BF4405AE1B04B4695C62B7D = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 77A6A2C3F73811561A80012A /* Build configuration list for PBXProject "Shiri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA58F800DA099A9A33FA79BA;
+			packageReferences = (
+				C618169CCD3061B4F1252201 /* XCLocalSwiftPackageReference "." */,
+			);
+			productRefGroup = F0D80125ED0EB761EBDC7763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF4405AE1B04B4695C62B7D /* Shiri */,
+				533F6E5F3FA9687946EC614B /* ShiriWidgets */,
+				DCE6CBDFE5763847FF94DA65 /* ShiriShareExtension */,
+				64A3B5522737831EB924B31D /* ShiriUITests */,
+				3F48E0AD5E4E181AAA7FE347 /* ShiriAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FB5D176C92CE6CC43F029D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470D1D523256FC6EA2FD0E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F8B686D886650442308101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F879DCAA66B171C19197633 /* Assets.xcassets in Resources */,
+				F3E2F12996B1AE66AEB66ABD /* PrivacyInfo.xcprivacy in Resources */,
+				5C287E7096A9E1ABBAC375B5 /* NotoSerifSC.ttf in Resources */,
+				32D12F9965494BEA8F720BB6 /* OFL.txt in Resources */,
+				BA59D73D2258FA8B17CBD875 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73970700CCCB34112DC9002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF1A458801FD08168298582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28725064460CE8D8072729CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2484E89BE60E45A4E7F9C9D9 /* LocalCardFlowTests.swift in Sources */,
+				14E5F53E3C6FDA5C6FC3E49F /* WarmPaperScreensTests.swift in Sources */,
+				2404EFA568730E45006CDF16 /* ExperienceUpgradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A907A065CEB6187D9BE5A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D498431CC4F8C32B00FB17 /* ShiriWidgets.swift in Sources */,
+				358F5DCF21450330F51806F2 /* AlarmAdapter.swift in Sources */,
+				06CBBEBB999646154A01FD75 /* LiveActivityService.swift in Sources */,
+				76A9FEE3CBD7A6DCECBDC768 /* ShiriActivity.swift in Sources */,
+				E307BD050AA858D0DAA2DA02 /* ShiriBrand.swift in Sources */,
+				4143F7D2958050748F998E0C /* ShiriIntents.swift in Sources */,
+				444291783E1C4D47A74B99D6 /* WidgetVoiceCapture.swift in Sources */,
+				71611EDE0D6E43ECA3EF6D36 /* SpeechTranscriptionService.swift in Sources */,
+				FCF5FCD1EB48A897B95D96D1 /* SystemActionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761B81C20B69AB142FEA4E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3671F0925F3756334B52FE /* NativeServicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30906DA21FD5AF8D365C3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7D86E59AC311AFB2ECEC9C /* ShareViewController.swift in Sources */,
+				EAC31AA6206837B57CAF1D89 /* PhotoProcessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EC508AEEDEC0D36173C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE246AA795F58DA2D79F92AF /* AppDelegate.swift in Sources */,
+				A60A632410F204877B2DF89B /* AppModel.swift in Sources */,
+				4BA8FD061302B712E49C1A20 /* ShiriApp.swift in Sources */,
+				7B1AFA709DCC6C8E1F3E116D /* PaperTheme.swift in Sources */,
+				BCF3E9D44BEEC967BA430227 /* DevelopmentFixtures.swift in Sources */,
+				F2AE94EEE9D8199F70531D0A /* AppRootView.swift in Sources */,
+				C36286119D2B53386C4C44C7 /* AppearanceEditor.swift in Sources */,
+				ED1E04EBA058F4AAF575AC0B /* BirthdayEditor.swift in Sources */,
+				E443B1DD7D8D54629B8295E5 /* CardDetailView.swift in Sources */,
+				0CC4D2AC6D302F128906E756 /* CardTile.swift in Sources */,
+				CBEC218245989919C1C05852 /* ComposerView.swift in Sources */,
+				EC63CAA18AA7F95E8AB1330D /* MediaEditor.swift in Sources */,
+				094274D47B112B8454B0FDA2 /* PlaceEditor.swift in Sources */,
+				80CE2CCF3020E7909299BB6C /* ReviewExportView.swift in Sources */,
+				06C1733290CCDE40D1209F87 /* ReviewView.swift in Sources */,
+				51B52D7BEEECDDD526DB7EF1 /* ScheduleEditors.swift in Sources */,
+				2F045C43BC585144C348626D /* SettingsView.swift in Sources */,
+				C3E246F137C9377D137ED096 /* SharingViews.swift in Sources */,
+				0E53DE447507228DB25F2305 /* TodayView.swift in Sources */,
+				E1968DE35AC448629D34D751 /* DateStripPager.swift in Sources */,
+				90E5B2F3465296CAE2E24648 /* GeofenceService.swift in Sources */,
+				D8B782198D35020E107DE137 /* LocalSpeechService.swift in Sources */,
+				F86CD83F6CA3B90141C880AB /* PhotoProcessor.swift in Sources */,
+				9F31A4E742168A7CD8DEB34E /* AlarmAdapter.swift in Sources */,
+				3D90F1B9A8FB561BC78AF8BA /* LiveActivityService.swift in Sources */,
+				88184C62F56288E5C68FED01 /* ShiriActivity.swift in Sources */,
+				E307BD050AA858D0DAA2DA03 /* ShiriBrand.swift in Sources */,
+				34310BBD707459C600254292 /* ShiriIntents.swift in Sources */,
+				81597A519D9A4BCFA6385AEC /* WidgetVoiceCapture.swift in Sources */,
+				607677CF193844128E3E8226 /* SpeechTranscriptionService.swift in Sources */,
+				813223D6A9891770CC2B8191 /* SystemActionHandler.swift in Sources */,
+				AC34D3A5F6E50FD8ACA96C49 /* ReminderStatusView.swift in Sources */,
+				668B993F48CE640498BF84D2 /* OccasionPreparationView.swift in Sources */,
+				986692534C8FE955784BF16E /* MemoryBookView.swift in Sources */,
+				D66EE12E86164854475D924D /* ScreenshotImportView.swift in Sources */,
+				0CAD6608C28254E8916CB832 /* CaptureSuggestions.swift in Sources */,
+				825B0249D989F293C48429F1 /* ScreenshotRecognition.swift in Sources */,
+				1BDDAFAA8D5051D1FCE502A0 /* MemoryComposerView.swift in Sources */,
+				89534B006E2EFF8CBC03F4BD /* MemoryReadingView.swift in Sources */,
+				E08BB0891B9CC9EAD9966330 /* MemoryExportView.swift in Sources */,
+				9875BAFE937CA25D4DEE44F6 /* MemoryEditorState.swift in Sources */,
+				FC1F4A5CA971502F4A158B77 /* MemoryPhotoEditor.swift in Sources */,
+				0436510EC3FB3D5FE909C2B8 /* MemoryReunionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D239A544FD2F8AF38BEEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shiri;
+			target = 8BF4405AE1B04B4695C62B7D /* Shiri */;
+			targetProxy = D28724B5032E2690068A3823 /* PBXContainerItemProxy */;
+		};
+		0B99F4B895F92CAC90D29132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shiri;
+			target = 8BF4405AE1B04B4695C62B7D /* Shiri */;
+			targetProxy = F37D90948ECE0FF95E888E7D /* PBXContainerItemProxy */;
+		};
+		54549D2A0D79AF05C538DCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShiriShareExtension;
+			target = DCE6CBDFE5763847FF94DA65 /* ShiriShareExtension */;
+			targetProxy = 011D63BD630A30AA49D5B0A1 /* PBXContainerItemProxy */;
+		};
+		7E7402159F2EEBB10BEF837D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShiriWidgets;
+			target = 533F6E5F3FA9687946EC614B /* ShiriWidgets */;
+			targetProxy = 706E3A94311F7FC5DCA95F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00425D8904FEE410CE49E036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 23VQ2DV6C3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		05FA793C3C7A0833F82B9B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Shiri/Shiri.entitlements;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Shiri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID)";
+				PRODUCT_NAME = Shiri;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		194CF56B768ACF98EF7A2C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 23VQ2DV6C3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		383F99091637D514D1179369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ShiriWidgets/ShiriWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShiriWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).widgets";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D7039DC25BBE1C5ABBCF0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).uitests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Shiri;
+			};
+			name = Debug;
+		};
+		71377B6C2FB776C5154F063E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).uitests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Shiri;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D54544D91F5EFC2F6E54AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ShiriShareExtension/ShiriShareExtension.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShiriShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).share";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5FA3B4811560E68B406BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).apptests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiri.app/Shiri";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD010F92DD8F6E2913E3FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).apptests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiri.app/Shiri";
+			};
+			name = Debug;
+		};
+		A9CD1BD5C243D728641C2A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Shiri/Shiri.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = Shiri/ShiriSimulator.entitlements;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Shiri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID)";
+				PRODUCT_NAME = Shiri;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80051AA17F289639EA925CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ShiriShareExtension/ShiriShareExtension.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShiriShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).share";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D98DC0941D40810BA74A60EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F95D1A41B531B18257E2DF /* Base.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ShiriWidgets/ShiriWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShiriWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SHIRI_BUNDLE_ID).widgets";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE078A57EC95404B23B058E /* Build configuration list for PBXNativeTarget "ShiriWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98DC0941D40810BA74A60EC /* Release */,
+				383F99091637D514D1179369 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C5A75BFF8BE64088BB62C2 /* Build configuration list for PBXNativeTarget "ShiriAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5FA3B4811560E68B406BE1 /* Release */,
+				9CD010F92DD8F6E2913E3FAA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616B69D35658A578D05B1DF4 /* Build configuration list for PBXNativeTarget "Shiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA793C3C7A0833F82B9B92 /* Release */,
+				A9CD1BD5C243D728641C2A36 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A6A2C3F73811561A80012A /* Build configuration list for PBXProject "Shiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194CF56B768ACF98EF7A2C28 /* Debug */,
+				00425D8904FEE410CE49E036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1DA7DF0428609762F12040 /* Build configuration list for PBXNativeTarget "ShiriShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D54544D91F5EFC2F6E54AC7 /* Release */,
+				D80051AA17F289639EA925CF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB459A8BA20A71A258AB5459 /* Build configuration list for PBXNativeTarget "ShiriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71377B6C2FB776C5154F063E /* Release */,
+				4D7039DC25BBE1C5ABBCF0EF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C618169CCD3061B4F1252201 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		053B9F9775BE503F3D7F349B /* ShiriCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C618169CCD3061B4F1252201 /* XCLocalSwiftPackageReference "." */;
+			productName = ShiriCore;
+		};
+		4B83FA7AAB1369425E32F153 /* ShiriCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C618169CCD3061B4F1252201 /* XCLocalSwiftPackageReference "." */;
+			productName = ShiriCore;
+		};
+		76E76368CEB0EB9268D2B5B3 /* ShiriCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C618169CCD3061B4F1252201 /* XCLocalSwiftPackageReference "." */;
+			productName = ShiriCore;
+		};
+		A0D41E169442DEC54678CE2C /* ShiriCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C618169CCD3061B4F1252201 /* XCLocalSwiftPackageReference "." */;
+			productName = ShiriCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7C195F10990D674BB9D30866 /* Project object */;
+}

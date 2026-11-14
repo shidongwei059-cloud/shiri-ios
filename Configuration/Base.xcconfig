@@ -1,0 +1,21 @@
+// The team was verified read-only in the user's existing iOS project.
+DEVELOPMENT_TEAM = 23VQ2DV6C3
+NIANYI_BUNDLE_ID = com.jianmutianyi.nianyi
+NIANYI_APP_GROUP = group.com.jianmutianyi.nianyi
+NIANYI_CLOUD_CONTAINER = iCloud.com.jianmutianyi.nianyi
+// Set YES only after these app-specific capabilities exist in the developer account.
+NIANYI_CLOUD_CONFIGURED = NO
+// Current project settings inherit legacy overrides to keep existing local setups working.
+SHIRI_BUNDLE_ID = $(NIANYI_BUNDLE_ID)
+SHIRI_APP_GROUP = $(NIANYI_APP_GROUP)
+SHIRI_CLOUD_CONTAINER = $(NIANYI_CLOUD_CONTAINER)
+SHIRI_CLOUD_CONFIGURED = $(NIANYI_CLOUD_CONFIGURED)
+IPHONEOS_DEPLOYMENT_TARGET = 16.0
+SWIFT_VERSION = 5.0
+CODE_SIGN_STYLE = Automatic
+CURRENT_PROJECT_VERSION = 1
+MARKETING_VERSION = 0.1.0
+TARGETED_DEVICE_FAMILY = 1,2
+CLANG_ENABLE_MODULES = YES
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+#include? "Local.xcconfig"

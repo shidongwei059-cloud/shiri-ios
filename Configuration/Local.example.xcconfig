@@ -1,0 +1,7 @@
+// Copy to Local.xcconfig only when overriding the defaults.
+// This file contains identifiers, never API keys or signing private keys.
+// DEVELOPMENT_TEAM = YOUR_TEAM_ID
+// SHIRI_BUNDLE_ID = com.yourcompany.shiri
+// SHIRI_APP_GROUP = group.com.yourcompany.shiri
+// SHIRI_CLOUD_CONTAINER = iCloud.com.yourcompany.shiri
+// SHIRI_CLOUD_CONFIGURED = YES

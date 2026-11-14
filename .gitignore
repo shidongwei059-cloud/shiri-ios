@@ -1,0 +1,13 @@
+build/
+.build/
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+Configuration/Local.xcconfig
+.DS_Store
+/README.local.md
+/DesignAssets/
+/Docs/*
+!/Docs/BrandOptions20260913/
+/Docs/BrandOptions20260913/*
+!/Docs/BrandOptions20260913/C_shiri_warm.png
